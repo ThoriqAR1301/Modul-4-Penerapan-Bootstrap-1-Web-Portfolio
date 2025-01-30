@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+    <!-- Nav Start -->
+    <nav class="navbar navbar-expand-lg bg-success-subtle navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Thoriq</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link aktif" aria-current="page" href="#">Home</a>
+                    <a class="nav-link aktif" href="#">About</a>
+                    <a class="nav-link aktif" href="#">Portfolio</a>
+                    <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav End -->
+    <!-- Explain Start -->
+    <section>
+        <div class="container">
+            <p class="text-center fs-2 fw-bolder bg-info-subtle my-3 text-uppercase">Beranda</p>
+            <p class="lh-sm text-success fs-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe possimus quas eos. Laudantium, natus! Nihil fuga eaque id. Officia, consequatur explicabo atque error, sed animi dicta assumenda ea necessitatibus mollitia omnis inventore. Ipsum cupiditate earum ex, impedit necessitatibus sapiente? Ullam ab beatae ducimus! Cumque, debitis tempora at vero inventore iusto?</p>
+        </div>
+    </section>
+    <!-- Explain End -->
+    <!-- Grid Start -->
+    <div class="container text-center mt-5 mb-5">
+        <div class="col mb-5 fs-2 fw-bolder">Thoriq</div>
+        <div class="row justify-content-around">
+            <div class="col-4 p-5 bg-warning-subtle">
+                <div class="col">
+                    <img src="Assets/Photos.jpg" class="img-fluid" alt="Image Not Found">
+                </div>
+            </div>
+            <div class="col-8 p-5 bg-success-subtle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus porro consequuntur repellendus illum numquam, suscipit magnam excepturi nihil quaerat aut! Fugit vero quaerat nam cupiditate ipsa consequatur eum fugiat quibusdam voluptate commodi, recusandae deserunt. Cumque aut dignissimos ipsa fuga earum sequi quod beatae, repudiandae aspernatur a? Commodi quis rerum delectus iure nihil magni quod, quo aliquam recusandae autem! Perspiciatis, excepturi nostrum minus est reprehenderit, quibusdam assumenda, ipsam quidem sint quam reiciendis! Obcaecati ex eum nisi ipsam fugit! Quod doloribus deleniti, iure provident laudantium at. Ipsam tenetur in nostrum pariatur porro eum rerum cumque quas dolores, ad facere maiores. Neque tempore natus sint ratione incidunt ullam eum tenetur officia. Odit exercitationem totam dolorum blanditiis et pariatur harum asperiores corrupti. Reiciendis sapiente eaque quas voluptas esse eum cupiditate unde delectus ab dolor quibusdam quis odio ipsa alias, ipsum corrupti expedita eveniet impedit! Adipisci quidem libero molestias tempora fuga saepe aliquam ipsam quaerat!</div>
+        </div>
+    </div>
+    <!-- Grid End -->
+    <!-- Accordion Start -->
+    <div class="container">
+        <div class="accordion text-center mt-5 mb-5 mx-5" id="accordionExample">
+            <div class="col mb-5 fs-2 fw-bolder">FAQ</div>
+            <div class="row justify-content-around">
+                <div class="col-6 p-5">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Hardware's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Prosesor pertama yang dibuat oleh Intel adalah Intel 4004 pada tahun 1971 dengan kecepatan hanya 740 kHz
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Software's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Microsoft Office pertama kali dirilis pada tahun 1989 dengan hanya beberapa aplikasi dasar seperti Word dan Excel
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Database's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                SQL (Structured Query Language) pertama kali dikembangkan pada tahun 1974 oleh Donald D. Chamberlin dan Raymond F. Boyce
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 p-5">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Computer Security's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Virus komputer pertama bernama "Creeper" dibuat pada tahun 1971, yang hanya menampilkan pesan "I'm the creeper, catch me if you can!"
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Artificial Intelligence (AI) and Data Science's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Data terbesar yang pernah dikumpulkan berasal dari penelitian Large Hadron Collider (LHC), menghasilkan sekitar 30 petabyte data per tahun
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Internet and Computer Networks's Fact
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Protokol HTTP (Hypertext Transfer Protocol) dikembangkan oleh Tim Berners-Lee pada tahun 1989 yang menjadi dasar World Wide Web
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion End -->
+    <!-- Card Caps/Title Start -->
+    <div class="container">
+        <div class="collaps text-center mt-5 mb-5 mx-5">
+            <div class="col mb-5 fs-2 fw-bolder">Jurusan Kami</div>
+            <div class="row justify-content-around">
+                <div class="col-4 p-5">
+                    <div class="card">
+                        <img src="Assets/TKJ.png" class="card-img-top" alt="Image Not Found">
+                        <div class="card-body">
+                            <h5 class="card-title">Teknik Komputer & Jaringan (TKJ)</h5>
+                            <p class="card-text">TKJ (Teknik Komputer dan Jaringan) adalah bidang yang mempelajari tentang perakitan, perawatan, dan pengelolaan komputer serta jaringan</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-5">
+                    <div class="card">
+                        <img src="Assets/RPL.jpg" class="card-img-top" alt="Image Not Found">
+                        <div class="card-body">
+                            <h5 class="card-title">Rekayasa Perangkat Lunak (RPL)</h5>
+                            <p class="card-text">RPL (Rekayasa Perangkat Lunak) adalah bidang yang mempelajari tentang pembuatan, pengembangan, dan pemeliharaan perangkat lunak</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-5">
+                    <div class="card">
+                        <img src="Assets/DKV.jpg" class="card-img-top" alt="Image Not Found">
+                        <div class="card-body">
+                            <h5 class="card-title">Desain Komunikasi Visual (DKV)</h5>
+                            <p class="card-text">DKV (Desain Komunikasi Visual) adalah bidang yang mempelajari tentang penyampaian pesan melalui elemen visual</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card Caps/Title End -->
+    <!-- Multiple Start -->
+    <div class="container">
+        <div class="collaps text-center mt-5 mb-5 mx-5">
+            <div class="col-12 p-5">
+                <p class="d-inline-flex gap-1">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">TKJ</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">RPL</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">DKV</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3">Semua Jurusan</button>
+                </p>
+                <div class="row justify-content-around">
+                    <div class="col-4">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                TKJ (Teknik Komputer dan Jaringan) adalah bidang yang mempelajari tentang perakitan, perawatan, dan pengelolaan komputer serta jaringan
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                RPL (Rekayasa Perangkat Lunak) adalah bidang yang mempelajari tentang pembuatan, pengembangan, dan pemeliharaan perangkat lunak
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                            <div class="card card-body">
+                                DKV (Desain Komunikasi Visual) adalah bidang yang mempelajari tentang penyampaian pesan melalui elemen visual
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Multiple End -->
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>

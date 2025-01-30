@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="latihan.css">
+    </head>
+    <body>
+    <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bolder" href="#">Thoriq AR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" aria-current="page" href="#H">Home</a>
+                        <a class="nav-link" href="#P">Portfolio</a>
+                        <a class="nav-link" href="#S">Skills</a>
+                        <a class="nav-link" href="#T">Timeline</a>
+                        <a class="nav-link" href="#N">News</a>
+                        <a class="nav-link" href="#C">Contact</a>                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <div class="container mt-5 mb-5" id="H">
+        <div class="row justify-content-around">
+            <div class="col-7">
+                <div class="row mt-5 lh-sm fs-3 text fw-bolder aktif">Thoriq Azhar Raditya</div>
+                <div class="row mt-5 lh-sm fs-1 fw-bold"><h1 class="fw-bold mb-5">Junior Web Developer In Indonesia</h1>
+                    <a href="#" class="fs-5 mt-3 text-decoration-none mb-3">Web Development</a>
+                    <a href="#" class="fs-5 text-decoration-none mb-3">Mobile Development</a>
+                    <a href="#" class="fs-5 text-decoration-none mb-3">Graphic Designer</a>
+                    <div class="d-flex flex-row mb-3 mt-5">
+                        <div class="p-2"><h2 class="fw-bolder">10+</h2></div>
+                        <div class="p-2"><h5 class="fw-semibold">Year Of<br>Experience</h5></div>
+                        <div class="p-2"><h2 class="fw-bolder">30K</h2></div>
+                        <div class="p-2"><h5 class="fw-semibold">Happy<br>Customers</h5></div>
+                    </div>
+                    <button type="button" class="btn mt-3">Deskripsi Diri</button>
+                </div>
+            </div>
+            <div class="col-5">
+                <img src="Assets/MenPerson.jpg" class="img-fluid rounded mt-5" alt="Image Not Found">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Header End -->
+    <!-- Portfolio Start -->
+    <div class="container mt-5 mb-5" id="P">
+        <div class="title fs-5 mt-5 mb-2 fw-bold aktif">Portfolio</div>
+        <div class="sub-title fs-1 mb-5 fw-bolder text-uppercase">Selected Works</div>
+        <div class="row row-cols-2 row-cols-md-3 g-5">
+            <div class="col-3">
+                <div class="card h-80">
+                    <img src="Assets/asset/img/portfolio-1.jpg" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Podomoro Timer App UI Kit</h5>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card h-80">
+                    <img src="Assets/asset/img/portfolio-2.jpg" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ride Share App</h5>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card h-80">
+                    <img src="Assets/asset/img/portfolio-6.png" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Real Estate App UI Kit</h5>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Portfolio End -->
+    <!-- Skill Start -->
+    <div class="container-fluid bg-black rounded mt-5 mb-5" id="S">
+        <div class="container text-start">
+            <div class="row justify-content-between">
+                <div class="row align-items-start">
+                    <div class="col-8">
+                        <div class="title fs-5 mt-5 mb-2 fw-bold aktif">Skill</div>
+                        <div class="sub-title fs-1 mb-5 fw-bolder text-white text-uppercase">Programming Skills</div>
+                        <div class="detail text-white">
+                            <h5>HTML</h5>
+                            <h5>90%</h5>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+                        </div>
+                        <br>
+                        <div class="detail text-white">
+                            <h5>CSS</h5>
+                            <h5>80%</h5>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
+                        </div>
+                        <br>
+                        <div class="detail text-white">
+                            <h5>Bootstrap</h5>
+                            <h5>70%</h5>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="Assets/Thoriq.JPG" class="img-fluid rounded float-end mt-5 mb-5" alt="Image Not Found">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Skill End -->
+    <!-- Timeline Start -->
+    <div class="container mt-5 mb-5" id="T">
+        <div class="title fs-5 mt-5 mb-2 fw-bold aktif">Timeline</div>
+        <div class="sub-title fs-1 mb-5 fw-bolder text-uppercase">Working Periode</div>
+        <table class="table justify-content-around">
+            <tbody>
+                <tr>
+                    <td>Januari 2025 - Today</td>
+                    <td>Head Programmer & Co-Founder</td>
+                    <td>Shopee, Jakarta</td>
+                </tr>
+                <tr>
+                    <td>Januari 2023 - Desember 2024</td>
+                    <td>Creative Director & Senior Programmer</td>
+                    <td>Lazada, Jakarta</td>
+                </tr>
+                <tr>
+                    <td>September 2018 - 2022</td>
+                    <td>Junior Programmer</td>
+                    <td>Majoo, Jakarta</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <!-- Timeline End -->
+    <!-- Information Start -->
+    <div class="container mt-5 mb-5" id="N">
+        <div class="title fs-5 mt-5 mb-2 fw-bold aktif">Portfolio</div>
+        <div class="sub-title fs-1 mb-5 fw-bolder text-uppercase">Selected Works</div>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col-4">
+                <div class="card h-90">
+                    <img src="Assets/asset/img/news-1.png" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bagaimana Membuat Web Portfolio?</h5>
+                        <p class="card-text fw-semibold">Berikut ini adalah cara pembuatannya...</p>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card h-90">
+                    <img src="Assets/asset/img/news-2.png" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bagaimana Menggunakan Phyton?</h5>
+                        <p class="card-text fw-semibold">Berikut ini adalah cara penggunaannya...</p>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card h-90">
+                    <img src="Assets/asset/img/news-3.png" class="card-img-top img-fluid" alt="Image Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bagaimana Membuat Game Mobile?</h5>
+                        <p class="card-text fw-semibold">Berikut ini adalah cara pembuatannya...</p>
+                        <p class="card-text fw-semibold aktif">Detail Portfolio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Information End -->
+    <!-- Testimoni Start -->
+    <div class="container mt-5 mb-5 text-center" id="T">
+        <div class="sub-title fs-1 mt-5 mb-5 fw-bolder text-uppercase">Testimony</div>
+        <div class="carousel-slide" data-bs-ride="carousel" id="TestimonialCarousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Assets/Thoriq.JPG" class="rounded-circle mb-3" alt="Image Not Found">
+                    <h3 class="fw-semibold aktif">Charles Darwin</h3>
+                    <div class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero ab voluptate magnam deserunt. Odio, iure minima voluptates repudiandae iste repellat possimus natus nulla numquam velit, harum accusantium ut deleniti debitis? Cumque corporis veniam omnis, perferendis quis sit enim dolore exercitationem, minima necessitatibus ratione obcaecati quasi voluptatibus, nihil repellat iste.
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/Photos.jpg" class="rounded-circle mb-3" alt="Image Not Found">
+                    <h3 class="fw-semibold aktif">Nico Leta</h3>
+                    <div class="text-muted">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem provident sit enim blanditiis ullam laudantium officia quis expedita? Necessitatibus voluptatum iusto modi. Modi debitis rem ipsam quam necessitatibus in, repellendus voluptatum, alias voluptatem veniam animi ea mollitia odio laudantium facere similique obcaecati sed ducimus incidunt quo sequi consequuntur enim veritatis?
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/Photos.jpg" class="rounded-circle mb-3" alt="Image Not Found">
+                    <h3 class="fw-semibold aktif">Nico Leta</h3>
+                    <div class="text-muted">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem provident sit enim blanditiis ullam laudantium officia quis expedita? Necessitatibus voluptatum iusto modi. Modi debitis rem ipsam quam necessitatibus in, repellendus voluptatum, alias voluptatem veniam animi ea mollitia odio laudantium facere similique obcaecati sed ducimus incidunt quo sequi consequuntur enim veritatis?
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#TestimonialCarousel" data-bs-ride="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#TestimonialCarousel" data-bs-ride="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <br>
+    <br>
+    <!-- Testimoni End -->
+    <!-- Contact Start -->
+    <div class="container mt-5 mb-5" id="C">
+        <div class="title fs-5 mt-5 mb-2 fw-bold aktif">Contact</div>
+        <div class="sub-title fs-1 mb-5 fw-bolder text-uppercase">Get In Touch</div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, consequatur expedita, architecto facere nisi non magni saepe odio ut quod est molestias voluptatum cupiditate cumque</p>
+                <p><strong>Alamat : </strong>Jl. Poras No. 7 Sindang Barang Loji, Kota Bogor, Jawa Barat</p>
+                <p><strong>Telepon : </strong>+62 811 8385 131</p>
+                <p><strong>Email : </strong>thoriqraditya06@gmail.com</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email Anda" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Alamat Anda" required>
+                    </div>
+                    <button type="button" class="btn mt-3 w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+    <!-- Footer Start -->
+    <footer class="bg-black text-center text-white py-3">
+        <p class="mb-0">Copyright © 2025 Thoriq Azhar Raditya</p>
+    </footer>
+    <!-- Footer End -->
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</html>
